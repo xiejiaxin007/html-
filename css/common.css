@@ -1,0 +1,205 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+/*水平方向的容器*/
+.container-hori{
+	width: 500px;
+	margin-bottom: 20px;
+}
+/*第一个*/
+.fir-left{
+	float: left;
+	background-color: darkgrey;
+	text-align: center;
+}
+.fir-right-auto{
+	overflow: hidden;
+	background-color: lightblue;
+	text-align: center;
+}
+/*第二个*/
+.secon-right{
+	float: right;
+	background-color: lightblue;
+}
+.secon-left-auto{
+	overflow: hidden;
+	background-color: darkgrey;
+}
+/*第三个*/
+.thir-right{
+	float: right;
+	background-color: lightblue;
+}
+.thir-left{
+	float: left;
+	background-color: darkgrey;
+}
+.thir-middle-auto{
+	overflow: hidden;
+	background-color: darkseagreen;
+}
+/*第四个*/
+.forth-right{
+	float: right;
+	background-color: darkgrey;
+}
+.forth-left-container{
+	overflow: hidden;
+}
+.forth-left-left{
+	float: left;
+	background-color: darkgrey;
+}
+.forth-left-right{
+	overflow: hidden;
+	background-color: lightblue;
+}
+/*第五个*/
+.fif-left{
+	float: left;
+	background-color: darkgrey;
+}
+.fif-right-container{
+	overflow: hidden;
+}
+.fif-right-right{
+	float: right;
+	background-color: lightblue;
+}
+.fif-left-left{
+	overflow: hidden;
+	background-color: darkmagenta;
+}
+/*垂直方向的容器*/
+.container-verti{
+	height: 200px;
+	width: 1000px;
+	background-color: darkseagreen;
+	margin: 20px;
+	overflow: hidden;
+	color: #fff;
+	padding-top: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+/*第一个*/
+.fir-top{
+	height: 30px;
+	background-color: #ADD8E6;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.fir-bottom{
+	height: 100%;
+	width: 100%;
+	background-color: #9ACD32;
+	/*position: absolute;
+	top: 30px;
+	left: 0;
+	bottom: 0;*/
+}
+/*第二个*/
+.container-verti-secon{
+	height: 200px;
+	width: 1000px;
+	background-color: darkseagreen;
+	margin: 20px;
+	overflow: hidden;
+	color: #fff;
+	padding-bottom: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+.secon-top{
+	height: 100%;
+	width: 100%;
+	background-color: #ADD8E6;
+}
+.secon-bottom{
+	height: 30px;
+	background-color: #9ACD32;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+/*第三个*/
+.testDiv{
+	height: 200px;
+	width: 1000px;
+	background-color: yellowgreen;
+	margin: 20px;
+	padding: 30px 0;
+	box-sizing: border-box;
+	color: #fff;
+}
+.containerDiv{
+	height: 100%;
+}
+.containerTop{
+	position: relative;
+	height: 30px;
+	background-color: darkblue;
+	top: -30px;
+}
+.containerMiddle{
+	height: 100%;
+	background-color: darkcyan;
+	position: relative;
+	top: -30px;
+}
+.containerBottom{
+	position: relative;
+	height: 30px;
+	background-color: darkorange;
+	top: -30px;
+}
+/*第四个*/
+.testDiv2{
+	color: #fff;
+	height: 200px;
+	width: 1000px;
+	background-color: #00008B;
+	margin: 20px;
+	padding: 30px 0;
+	box-sizing: border-box;
+	position: relative;
+}
+.containerDiv2{
+	height: 100%;
+	background-color: #fff;
+}
+.testDiv2-top{
+	height: 30px;
+	width: 100%;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.testDiv2-bottom{
+	height: 30px;
+	width: 100%;
+	background-color: darkgoldenrod;
+	position: absolute;
+	bottom: 0;
+}
+.testDiv2-middle{
+	background-color: cornflowerblue;
+	width: 100%;
+	/*height: 100%;*/
+	position: absolute;
+	top: 30px;
+	left: 0;	
+	bottom: 30px;
+}
+.tb tr, td{
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	
+}
